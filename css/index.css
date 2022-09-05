@@ -1,0 +1,341 @@
+body{
+
+  color: white;
+font-family: Barlow;
+font-weight: 400;
+}
+
+.home{
+  background-image: url("backgrounds/homed.jpg");
+  background-size: cover;
+}
+.header{
+
+position: absolute;
+width: 1385px;
+height: 96px;
+left: 55px;
+top: 40px;
+}
+
+.logo{
+border-radius: 50%;
+position: absolute;
+width: 48px;
+height: 48px;
+/* left: 55px; */
+top: 24px;
+
+
+}
+
+.header-list{
+  position: absolute;
+width: 830px;
+height: 96px;
+right: 0;
+background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(81.5485px);
+text-align: center;
+
+}
+span{
+  font-weight: 900;
+}
+a:hover{
+  color: #D2D7D3;
+}
+.header-item{
+  position: relative;
+top: 38.5px;
+color: white;
+text-decoration: none;
+
+width: 70px;
+height: 19px;
+padding: 30px;
+
+}
+.header-item:hover{
+  border-bottom: solid 5px rgba(255,255,255, 0.3);
+}
+.athome {
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    left: 690px;
+    top: 88px;
+    background: #FFFFFF;
+}
+
+
+.space-box{
+
+position: absolute;
+width: 450px;
+height: 382px;
+left: 150px;
+top: 250px;
+
+}
+.main-para{
+  font-family: Barlow;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.1px;
+text-align: left;
+color:#D0D6F9;
+}
+.main-heading{
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 1px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.space-heading2{
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+color: #D0D6F9;
+letter-spacing: 4.5px;
+}
+.explore{
+  font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height */
+
+letter-spacing: 2px;
+
+color: #0B0D17;
+
+text-align: center;
+position: relative;
+top: 90px;
+}
+.explore-bg{
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background-color: white;
+  position:
+  absolute;
+  top: 400px;
+right: 320px;
+}
+
+.explore-bg:hover{
+    box-shadow: 0px 0px 0px 50px rgba(255,255,255,0.1);
+}
+.destination{
+  background-image: url("backgrounds/background-destination-desktop.jpg");
+}
+
+.destination-heading2 {
+    position: absolute;
+    top: 205px;
+    left: 122px;
+  color: white;
+  font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: 4.725px;
+text-transform: uppercase;
+
+}
+
+
+
+.moon-img{
+  position: absolute;
+      top: 303px;
+      left: 207px;
+      width: 25%;
+}
+
+.about-moon {
+    position: absolute;
+    top: 248px;
+    left: 777px;
+    width: 30%;
+}
+.small-header{
+  position: absolute;
+
+width: 400px;
+height: 70px;
+background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(81.5485px);
+text-align: center;
+}
+
+.small-header-item{
+  font-family: Barlow Condensed;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 2.700000047683716px;
+text-align: left;
+position: relative;
+top: 25px;
+
+width: 70px;
+height: 19px;
+padding: 10px;
+text-decoration: none;
+color: white;
+}
+.moon-heading{
+  padding: 30px 0;
+}
+
+.space-heading{
+  line-height: 130px
+}
+.current ,.current:hover
+{
+  border-bottom: solid 5px  rgba(255,255,255, 1);
+}
+.small-header-item:hover{
+  border-bottom: solid 5px  rgba(255,255,255, 0.3);
+}
+.crew{
+
+  background-image: url('backgrounds/background-crew-desktop.jpg');
+  background-size: cover;
+}
+.crew-box{
+  width: 30%;
+      position: absolute;
+      top: 276px;
+      left: 250px;
+}
+.crew-heading{
+
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 37px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+ine-height: 2px;
+}
+.crew-name{
+  font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+line-height: 2px;
+}
+.crew-main-heading{
+  position: absolute;
+    top: 151px;
+    left: 95px;
+    color: white;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+.circle-item{
+  background-color: rgba(255,255,255, 0.2);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 5px
+}
+.circle-menu{
+  position: absolute;
+  bottom: 80px;
+  left: 250px;
+}
+.circle-item:hover{
+background-color: rgba(255,255,255, 0.5);
+}
+.curr-circle{
+  background-color: white;
+  color: black;
+
+}
+.curr-circle:hover{
+  background-color: white;
+}
+.crew-img{
+  position: absolute;
+  bottom: 0;
+  right: 250px;
+  width: 28%;
+}
+.technology-box{
+  position: absolute;
+  width: 30%;
+  top: 293px;
+left: 394px;
+}
+.technology-img{
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+.circle-no{
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  margin: 30px;
+  background-color: rgba(255,255,255, 0.1);
+}
+.circle-no-no{
+  position: relative;
+top: 30px;
+left: 42px;
+}
+.circle-no-box{
+  position: absolute;
+  top: 250px;
+left: 150px;
+}
+.curr{
+  background-color: white;
+  color: black;
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin: 30px;
+}
+.circle-no:hover{
+  border: solid 1px  white;
+}
+.technology{
+  background-image: url(backgrounds/background-technology-desktop.jpg);
+}
+.mark-img{
+  width: 25%;
+}
